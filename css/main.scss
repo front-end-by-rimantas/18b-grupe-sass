@@ -1,0 +1,29 @@
+h1 {
+    font-size: 40px;
+}
+
+header {
+    background-color: aquamarine;
+
+    > img {
+        display: inline-block;
+        float: left;
+    }
+    > nav {
+        display: inline-block;
+        float: right;
+        box-shadow: 0 0 0 red;
+        transform: matrix();
+        background: linear-gradient(red, blue);
+
+        > a {
+            display: inline-block;
+            float: left;
+            padding: 10px 5px;
+
+            &:hover {
+                background-color: red;
+            }
+        }
+    }
+}

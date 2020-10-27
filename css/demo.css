@@ -1,0 +1,10 @@
+@import './variables.css';
+
+footer {
+    border: 10px solid var(--secondary-color);
+}
+
+    footer > div:hover {
+        font-size: 40px;
+        color: var(--main-color);
+    }
